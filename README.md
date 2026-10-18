@@ -1,26 +1,28 @@
-# EcoCoreMiner
+# EcoMine
 
-Official downloads, instructions and release notes for EcoCoreMiner, distributed through the **EcoMine369** desktop application.
+Official programs, instructions and updates for **EcoMine**, distributed in the **EcoMine369** desktop application. This repository keeps its existing URL so installed links continue to work.
 
-[Download and updates](https://github.com/ahlaphotostudio-byte/EcoCoreMiner/releases) · [Website](https://369apps.studio/ecomine/) · [Fee policy](FEES-RU.md) · [Installation](INSTALL-RU.md)
+[Download EcoMine369 1.18.0](https://369apps.studio/ecomine/EcoMine369-1.18.0.zip) · [Website](https://369apps.studio/ecomine/) · [Installation](INSTALL-RU.md) · [Native engine](NATIVE-RU.md) · [Fee policy](FEES-RU.md)
 
 ## Current release
 
-**EcoMine369 1.17.0 — EcoCoreMiner branding and fee policy.** The application manages installed third-party miners. Existing profiles, wallets and history are preserved when using its updater.
+**Desktop 1.18.0 / native engine EcoMine 0.2.0 — device-validation release.**
 
-The separate native EcoCoreMiner Autolykos2 GPU engine is in development. Its CUDA/OpenCL sources and unpublished binaries are not distributed here. This release does not claim a production native pool miner or automatic fee deduction.
+EcoMine now contains its own compiled Autolykos2 computations and an Ergo Stratum adapter for NVIDIA on Windows/Linux x64. It verifies the package and GPU calculations before connecting to the configured pool. Every reported GPU solution is recomputed on CPU before submission. Existing profiles continue to use their selected engine.
 
-| Actual computing engine | Service tariff |
+Control vectors, CPU reference comparisons, partial-cache logic, a simulated local pool with reconnects and controller protection were tested. Physical GPU execution, Windows execution, accepted shares from a real pool and performance have not been validated in the build environment. Do not infer that every listed architecture is hardware-tested.
+
+| Computing engine | Service tariff |
 | --- | ---: |
-| Native EcoCoreMiner, when released and connected to payouts | 1.5% |
-| SRBMiner, lolMiner, Rigel, XMRig, PeakMiner or a custom external engine managed through EcoMine | 2% |
+| EcoMine native engine, once connected to the settlement path | 1.5% |
+| External engines managed through EcoMine | 2% |
 
-The external engine's own developer fee and the pool's fee are separate. Selecting the EcoCoreMiner management interface does not turn an external engine into a native one or reduce its tariff.
+Automatic deduction is disabled. This native release does not switch mining to a developer wallet or send payments. Pool fees and an external miner's developer fee are separate.
 
-## Distribution model
+## Distribution
 
-This public repository contains documentation, release manifests and downloadable programs. Development takes place in a separate private repository. GitHub's automatically generated **Source code** ZIP/TAR archives contain only the files in this public repository, not the GPU engine implementation.
+The new downloadable client is available from the website; older GitHub release assets remain available in [Releases](https://github.com/ahlaphotostudio-byte/EcoCoreMiner/releases). Check [release.json](release.json) and [SHA256SUMS.txt](SHA256SUMS.txt).
 
-Use release assets or the website for installation. Check the published SHA-256 before running a download. No seed phrase or wallet private key is needed to configure mining.
+This public repository contains documentation and release metadata. Computational development source remains in the separate private repository. GitHub's automatically generated Source code ZIP/TAR files contain only this repository's files, not the GPU engine source. The installer includes binary computational modules and the existing MIT controller.
 
-Existing MIT components retain their license. See [notices](NOTICES.md).
+No seed phrase or private wallet key is needed. Existing MIT notices remain valid; see [notices](NOTICES.md).

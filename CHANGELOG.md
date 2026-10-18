@@ -1,5 +1,17 @@
 # Releases
 
+## 1.18.0 / EcoMine native 0.2.0 — 2026-10-18
+
+- Own computing engine is now named **EcoMine**.
+- NVIDIA / ERG native binary runtime and nine-field Ergo Stratum connection.
+- Mandatory CPU/GPU self-test, every share rechecked on CPU, stale-job and session isolation.
+- Full or partial VRAM cache, bounded batches and configured-pool reconnects.
+- Integrated existing process containment and mandatory temperature monitoring.
+- 160 desktop tests passed, including 18 native/reference/protocol checks; no physical GPU or real-pool performance claim.
+- Binary-only computational release; private source remains private.
+- Native 1.5% / external 2% tariffs unchanged; automatic deduction remains disabled.
+- Download available on the website. Existing GitHub release assets are retained.
+
 ## 1.17.0 — 2026-10-18
 
 - Own engine and component-management branding: EcoCoreMiner.

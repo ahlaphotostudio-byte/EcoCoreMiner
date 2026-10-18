@@ -1,0 +1,12 @@
+{
+  "filename": "EcoMine369-1.17.0.zip",
+  "bytes": 17314669,
+  "sha256": "60afb8296951f355d53bba0e3b76659a5b51e84885d2ac851ccfcf77d7fabc8b",
+  "parts": [
+    {
+      "path": "/ecomine/releases/1.17.0/windows.part1",
+      "bytes": 17314669,
+      "sha256": "60afb8296951f355d53bba0e3b76659a5b51e84885d2ac851ccfcf77d7fabc8b"
+    }
+  ]
+}

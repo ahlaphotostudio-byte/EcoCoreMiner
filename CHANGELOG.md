@@ -1,5 +1,16 @@
 # Releases
 
+## 1.19.0 / EcoMine 3 (0.3.0) — 2026-10-18
+
+- Separate native execution variant; original EcoMine binaries and profiles preserved.
+- Per-kernel CUDA launch selection, cached job/functions, blocking CPU waits.
+- Optional interruptible 70% active-time pacing, including dataset building; no fixed watt-saving claim.
+- One-click preparation of three sequential comparison profiles; efficiency, energy and temperature in results/CSV.
+- Same algorithm, pool, wallet and device enforced for comparisons.
+- CPU/reference, mock-driver contracts, pacing, guard and distribution checks passed. Real GPU, Windows execution, live-pool shares and performance remain unvalidated.
+- Native tariff remains 1.5%; external tariff 2%. Automatic collection remains disabled.
+
+
 ## 1.18.0 / EcoMine native 0.2.0 — 2026-10-18
 
 - Own computing engine is now named **EcoMine**.
@@ -24,3 +35,4 @@
 - Existing profiles, wallets and history are preserved by the updater.
 
 Automatic deduction and native pool mining are not enabled in this release. The production desktop still runs the selected external engine under its own name.
+

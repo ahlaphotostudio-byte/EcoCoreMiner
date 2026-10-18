@@ -7,3 +7,4 @@ The previously delivered EcoCore369 GPU baseline 0.1.0 and existing EcoMine369 P
 Third-party miners, Python and other dependencies retain their respective licenses. The desktop archive includes LICENSE.txt, THIRD-PARTY-NOTICES.txt and ECOMINE-NATIVE-NOTICES.txt. Their fees are not included in EcoMine's 2% service tariff.
 
 No claim of complete protection from reverse engineering is made. Binary distribution avoids publishing source; it does not make machine code impossible to inspect.
+

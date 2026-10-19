@@ -1,1 +1,2 @@
-dff11a22af8ad1a9a52d9fc346e029c22dae3155236a9af0f077cbcb1e08cdd2  EcoMine369-1.21.0.zip
+b08c238d6a2a5ea686310bfc48bcb3dca30a1d201d8e2ca6d4612cccd8b5a6e9  EcoMine369-1.22.0.zip
+9bcd1b3954f9b48480aa3ec003bbfcefacfe2932f6c7de60df667eb791775f43  EcoCoreMiner-0.1.0-preview.zip

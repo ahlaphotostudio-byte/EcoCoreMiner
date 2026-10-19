@@ -1,0 +1,13 @@
+{
+  "product": "EcoCoreMiner",
+  "version": "0.1.0-preview",
+  "filename": "EcoCoreMiner-0.1.0-preview.zip",
+  "bytes": 340839,
+  "sha256": "9bcd1b3954f9b48480aa3ec003bbfcefacfe2932f6c7de60df667eb791775f43",
+  "url": "/ecocoreminer/releases/EcoCoreMiner-0.1.0-preview.zip",
+  "status": "preview",
+  "requires": "Python 3.10+; Windows/Linux x64",
+  "gpuValidated": false,
+  "asicValidated": false,
+  "poolValidated": false
+}

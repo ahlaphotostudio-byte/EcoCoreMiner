@@ -1,3 +1,14 @@
+# 1.20.0 — EcoMine 3 execution and energy tuning
+
+- Native host 0.4.0: measured block sizes, two-pass confirmation and occupancy fallback; dataset allocation reuse. Consensus modules unchanged.
+- Economy / Balance / Speed presets; custom 50–100% workload ceiling.
+- Adaptive thermal workload with hysteresis and fail-closed temperature feedback.
+- Own-engine workload search, efficiency/balance/speed objectives, repeat measurements and ≥3% improvement threshold.
+- Profiles bound to GPU/driver/native package; manual application and manual start.
+- Live workload state, energy/efficiency/temperature/share reports; continuous hashrate windows across pool job changes.
+- 177 automated Python checks, TypeScript and UI interaction checks passed. No physical GPU, Windows execution, live-pool or measured performance validation in the build environment.
+- Native 1.5% / external 2% tariffs retained; automatic fee collection remains disabled.
+
 # Releases
 
 ## 1.19.0 / EcoMine 3 (0.3.0) — 2026-10-18

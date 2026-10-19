@@ -2,15 +2,19 @@
 
 Official programs, instructions and updates for **EcoMine**, distributed in the **EcoMine369** desktop application. This repository keeps its existing URL so installed links continue to work.
 
-[Download EcoMine369 1.19.0](https://369apps.studio/ecomine/EcoMine369-1.19.0.zip) · [Website](https://369apps.studio/ecomine/) · [Installation](INSTALL-RU.md) · [Native engine](NATIVE-RU.md) · [Fee policy](FEES-RU.md)
+[Download EcoMine369 1.20.0](https://369apps.studio/ecomine/EcoMine369-1.20.0.zip) · [Website](https://369apps.studio/ecomine/) · [Installation](INSTALL-RU.md) · [Native engine](NATIVE-RU.md) · [Fee policy](FEES-RU.md)
 
 ## Current release
 
-**Desktop 1.19.0 / EcoMine 0.2.0 + EcoMine 3 (0.3.0) — device-validation release.**
+**Desktop 1.20.0 / EcoMine 0.2.0 + EcoMine 3 (0.4.0) — device-validation release.**
 
 EcoMine contains its own compiled Autolykos2 computations and an Ergo Stratum adapter for NVIDIA on Windows/Linux x64. It verifies the package and GPU calculations before connecting to the configured pool. Every reported GPU solution is recomputed on CPU before submission. Existing profiles continue to use their selected engine.
 
-EcoMine 3 is a separate execution variant: per-kernel driver occupancy selection, cached functions/job data and blocking CPU waits. It shares the unchanged compiled Autolykos2 kernels with the baseline. Its optional economy mode paces GPU batches to a nominal 70% active time; that is not a watt limit or a guarantee of savings. The comparison screen prepares three new profiles and shows hashrate per watt, energy, temperature and shares. Original profiles are preserved.
+EcoMine 3 adds Economy (70%), Balance (85%), Speed (100%) and a custom 50–100% active-time ceiling. Optional thermal adaptation reduces workload before the stop threshold and gradually recovers it after cooling. It fails closed on missing temperature feedback. These are duty-cycle settings, not watt limits or guaranteed savings.
+
+The native host measures GPU block sizes in two passes with a stable-baseline check, retains the driver's occupancy choice when evidence is insufficient, and reuses allocated dataset memory across compatible jobs. Consensus CUBINs and the original EcoMine host are unchanged.
+
+The own-engine comparison measures workloads 100/85/70/50%, repeats the selected candidate and baseline, and ranks by efficiency, balanced throughput or speed. Applying a confirmed result saves a device/driver/core-bound profile without starting mining. Hashrate per watt, kWh, temperature and accepted/rejected solutions are shown and exportable. Original profiles remain available.
 
 Control vectors, CPU reference comparisons, partial-cache logic, a simulated local pool with reconnects and controller protection were tested. Physical GPU execution, Windows execution, accepted shares from a real pool and performance have not been validated in the build environment. Do not infer that every listed architecture is hardware-tested.
 

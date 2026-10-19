@@ -1,9 +1,9 @@
-# 1.22.0 / EcoCoreMiner 0.1.0-preview — 2026-10-19
+# EcoMine369 1.23.0 / EcoCoreMiner 0.2.0
 
-- Separate EcoCoreMiner product page in emerald/gold liquid-glass style; interactive GPU/ASIC explanation, algorithm filters and exact fee examples.
-- Standalone native CLI with config validation, thermal watchdog, process containment, JSON events and SHA256d self-test without mining.
-- New private SHA256d implementation, Windows/Linux hosts, 14 NVIDIA modules and Bitcoin SV1 adapter.
-- Experimental one-device ASIC SV1 gateway with explicit LAN addresses, upstream TLS support and no firmware changes.
-- Lite profiles expanded from 3 to 8: PRL, XEL, XNA, ERG, ETC, RVN, NEXA, CFX. Native address checks and CFX memory preflight; existing wallets preserved.
-- Current tariffs: 2% own / 3% managed external engines. Old consent cannot silently authorize the increase; existing invoice/reservation values remain immutable.
-- Other native algorithms and BTC/ASIC fee collection are not ready. Hardware tests and live accepted shares remain required.
+- Mandatory explicit commercial license acceptance and activation, with signed device leases, online renewal, revocation and restore controls.
+- Mandatory ERG collection: own engines 2%, supported external engines 3%. Estimates and real mining comparisons include the current fee. Existing invoices retain their original amounts.
+- Bitcoin/SHA256d GPU and ASIC Stratum v1 gateway remain available under the license; no Bitcoin fee collection is configured.
+- Launch guards and workers enforce activation; licence loss stops the supervised process or closes the ASIC gateway. Independently configured ASIC backup pools remain outside the gateway.
+- Added CHECK-GPU.cmd with archive integrity and bounded GPU self-tests, and a dedicated Russian ASIC installation guide.
+- Removed the former product preview wording. Physical validation is recorded separately and has not been claimed.
+- Private computational sources and retained MIT/third-party notices remain protected by the distribution audit.

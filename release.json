@@ -1,12 +1,12 @@
 {
-  "filename": "EcoMine369-1.22.0.zip",
-  "bytes": 19073996,
-  "sha256": "b08c238d6a2a5ea686310bfc48bcb3dca30a1d201d8e2ca6d4612cccd8b5a6e9",
+  "filename": "EcoMine369-1.23.0.zip",
+  "bytes": 19066089,
+  "sha256": "815cd5c8d84eafad1eb3e61a51f93a1a666c05034cdcfbe8f51b2d7d5f32a680",
   "parts": [
     {
-      "path": "/ecomine/releases/1.22.0/windows.part1",
-      "bytes": 19073996,
-      "sha256": "b08c238d6a2a5ea686310bfc48bcb3dca30a1d201d8e2ca6d4612cccd8b5a6e9"
+      "path": "/ecomine/releases/1.23.0/windows.part1",
+      "bytes": 19066089,
+      "sha256": "815cd5c8d84eafad1eb3e61a51f93a1a666c05034cdcfbe8f51b2d7d5f32a680"
     }
   ]
 }
